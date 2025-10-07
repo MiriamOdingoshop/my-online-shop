@@ -1,0 +1,104 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miriam's Online Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff4d6d;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    .shop-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 15px;
+      width: 250px;
+      text-align: center;
+      padding: 15px;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      color: #333;
+    }
+
+    .price {
+      color: #ff4d6d;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    button {
+      background-color: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background-color: #e84362;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🛍️ Miriam’s Online Shop</header>
+
+  <div class="shop-container">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 1">
+      <h3>Floral Dress</h3>
+      <p class="price">$25.00</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 2">
+      <h3>Leather Handbag</h3>
+      <p class="price">$40.00</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 3">
+      <h3>Stylish Heels</h3>
+      <p class="price">$35.00</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+
+</body>
+</html>
